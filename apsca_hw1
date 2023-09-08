@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+class test {
+   public static void main(String[] args) {
+     
+      Scanner main = new Scanner(System.in);
+     
+     
+     System.out.print("Please input a date: ");
+     String input1 = main.nextLine();
+     System.out.print("input a place");
+     String input2 = main.nextLine();
+     
+     
+     System.out.println("input an object");
+     String input3 = main.nextLine();
+      
+     System.out.println("input an object");
+     String input4 = main.nextLine();
+     
+     System.out.println("input an object");
+     String input5 = main.nextLine();
+     
+     System.out.println("input an object");
+     String input6 = main.nextLine();
+     
+     System.out.println("input the name of celebrity");
+     String input7 = main.nextLine();
+     
+     System.out.println("input verb");
+     String input8 = main.nextLine();
+     
+     System.out.println("input an object");
+     String input9 = main.nextLine();
+     
+     System.out.println("input a place");
+     String input10 = main.nextLine();
+     
+     System.out.println("input verb");
+     String input11 = main.nextLine();
+     
+     System.out.println("input an object");
+     String input12 = main.nextLine();
+     
+     
+     
+     
+     
+     
+     
+     System.out.println(input1+", I visited  "+input2+", got "+input3 +" took "+input4+ ", and " +input5+ " I put receipt into " +input6+" I met " +input7+ " We " +input8+ " poker sat on " +input9+ " After playing poker, I went back " +input10+ " and " +input11+ " a cup of " +input12  );
+     
+   }
+}
